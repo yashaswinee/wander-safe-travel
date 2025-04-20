@@ -6,9 +6,16 @@ const Heatmap = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-primary p-4 pt-8 rounded-b-lg">
-        <h1 className="text-2xl font-bold text-white mb-2">Safety Heatmap</h1>
-        <p className="text-white/90">View area safety levels</p>
+      <header className="bg-primary p-4 pt-8 rounded-b-lg flex items-center">
+        <img
+          src="/lovable-uploads/5e35d235-39a0-4a46-98f7-5999560a051b.png"
+          alt="Logo"
+          className="h-8 mr-4"
+        />
+        <div>
+          <h1 className="text-2xl font-bold text-white mb-2">Safety Heatmap</h1>
+          <p className="text-white/90">View area safety levels</p>
+        </div>
       </header>
 
       {/* Main Content */}
